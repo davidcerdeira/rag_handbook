@@ -1,0 +1,8 @@
+python-dotenv
+anthropic
+voyageai
+chromadb
+rank-bm25
+langchain-text-splitters
+pypdf
+langdetect
