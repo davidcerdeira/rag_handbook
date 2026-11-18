@@ -12,7 +12,7 @@ load_dotenv()
 ANSWER_MODEL = "claude-sonnet-5-5"
 claude = anthropic.Anthropic()
 
-MIN_RELEVANCE = 0.3  # gate: below this best-chunk score, don't call Claude (tune in evals)
+MIN_RELEVANCE = 0.5  # gate: below this best-chunk score, don't call Claude (tune in evals)
 NOT_COVERED = (
     "I couldn't find anything in the handbook that answers this. "
     "Try rephrasing your question, or contact People Ops directly."

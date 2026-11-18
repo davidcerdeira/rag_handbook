@@ -23,7 +23,7 @@ RERANK_MODEL = "rerank-2.5"
 vo = voyageai.Client()
 chroma = chromadb.PersistentClient(path=CHROMA_DIR)
 
-
+@lru_cache(maxsize=None)
 def embed_query(question: str) -> list[float]:
     # "query" (not "document"): Voyage optimizes questions differently from passages
     return vo.embed([question], model=EMBED_MODEL, input_type="query").embeddings[0]
