@@ -1,0 +1,42 @@
+[
+  {
+    "type": "direct",
+    "question": "According to the Returning from Leave toolkit, which GitLab operating principle does Seth B.'s recommendation about blocking personal activities like 'baby time' or 'date night' on calendars tie to?",
+    "expected_answer": "Seth's recommendation ties to the Diversity, Inclusion & Belonging operating principle: Family and friends first, work second.",
+    "evidence": [
+      "Family and friends first, work second."
+    ],
+    "expected_sources": [
+      "Leave of Absence Toolkit for Team Members and Managers > Team Member Toolkit > Returning from Leave"
+    ],
+    "failed": [
+      "answerable",
+      "answer_correct",
+      "specific",
+      "realistic",
+      "needs_all_sources"
+    ],
+    "reason": "review failed: Expecting property name enclosed in double quotes: line 1 column 21 (char 20)"
+  },
+  {
+    "type": "multi_hop",
+    "question": "How does parental leave differ between GitLab BV (Belgium) and GitLab Ireland Ltd in terms of pay during the leave and the notice team members must give before it starts?",
+    "expected_answer": "In Belgium, team members with 6+ months tenure receive 100% salary for up to 16 weeks of maternity leave, and maternity leave is requested via Workday 3 months before the start date. In Ireland, parental leave is up to 26 weeks of unpaid leave, and team members must notify leaves@gitlab.com 6 weeks in advance.",
+    "evidence": [
+      "100% salary for up to 16 weeks",
+      "Up to 26 weeks unpaid leave"
+    ],
+    "expected_sources": [
+      "GitLab BV (Belgium) Benefits > Time Off & Leave Benefits > Parental Leave",
+      "GitLab Ireland Ltd > Growing Family Leaves > Parental Leave"
+    ],
+    "failed": [
+      "answerable",
+      "answer_correct",
+      "specific",
+      "realistic",
+      "needs_all_sources"
+    ],
+    "reason": "review failed: Expecting value: line 1 column 1 (char 0)"
+  }
+]

@@ -1,0 +1,370 @@
+[
+  {
+    "type": "direct",
+    "question": "Under GitLab Inc (USA)'s Equal Employment Opportunity Policy, which aspects of the relationship between GitLab and its team members does the policy cover?",
+    "expected_answer": "The EEO and anti-discrimination policy applies to all aspects of the relationship between GitLab and its team members, including recruitment, employment, promotion, transfer, training, working conditions, wages and salary administration, and team member benefits and application of policies.",
+    "evidence": [
+      "Recruitment, Employment, Promotion, Transfer, Training, Working conditions, Wages and salary administration"
+    ],
+    "expected_sources": [
+      "People Policies - GitLab Inc (USA) > Equal Employment Opportunity Policy > Scope"
+    ],
+    "id": "q01"
+  },
+  {
+    "type": "direct",
+    "question": "For team members in Brazil employed through Remote, how much of the medical coverage premiums does GitLab pay for team members and their dependents?",
+    "expected_answer": "GitLab covers 100% of the premiums for both the team member and their dependents under Remote's Standard Plan.",
+    "evidence": [
+      "GitLab covers 100% of team member and dependent premiums"
+    ],
+    "expected_sources": [
+      "Remote.com > Brazil 🇧🇷"
+    ],
+    "id": "q02"
+  },
+  {
+    "type": "direct",
+    "question": "For GitLab PTY Ltd. team members in New Zealand, how far in advance do I need to submit my Parental Leave request in Workday?",
+    "expected_answer": "Team members in New Zealand should submit their time off using the Parental Leave category in Workday at least 30 days before their leave starts.",
+    "evidence": [
+      "at least 30 days before your leave starts"
+    ],
+    "expected_sources": [
+      "GitLab PTY Ltd. Benefits - New Zealand > **Time Away & Leave Policies** > **Parental Leave**"
+    ],
+    "id": "q03"
+  },
+  {
+    "type": "direct",
+    "question": "For GitLab BV (Belgium) employees, how many days of full salary continuation do they get under sick leave, and does it depend on seniority?",
+    "expected_answer": "Belgian GitLab BV employees receive 30 days of full salary continuation for sick leave, regardless of seniority. It runs concurrently with GitLab's global Sick Time policy.",
+    "evidence": [
+      "30 days full salary continuation (regardless of seniority)"
+    ],
+    "expected_sources": [
+      "GitLab BV (Belgium) Benefits > Time Off & Leave Benefits > Sick Leave"
+    ],
+    "id": "q04"
+  },
+  {
+    "type": "direct",
+    "question": "Under the GitLab India Private Limited Equal Opportunity Policy, will GitLab retaliate against a team member or applicant for discussing or disclosing their disability or medical information?",
+    "expected_answer": "No. GitLab India Private Limited will not discharge, discriminate against, or retaliate against team members or applicants because they inquired about, discussed, or disclosed their disabilities, medical information, or details regarding their gender.",
+    "evidence": [
+      "will not discharge or in any other manner discriminate or retaliate against team members or applicants"
+    ],
+    "expected_sources": [
+      "GitLab India Private Limited EOP Policy > 1.2 Scope"
+    ],
+    "id": "q05"
+  },
+  {
+    "type": "direct",
+    "question": "What is the maximum monthly medical allowance for a team member in South Africa who is covering themselves and their dependents under a family plan?",
+    "expected_answer": "Family coverage in South Africa receives a medical allowance of up to ZAR 8,500 per month for the employee and dependents.",
+    "evidence": [
+      "Up to ZAR 8,500 per month for employee and dependents"
+    ],
+    "expected_sources": [
+      "Global Expansion > **South Africa 🇿🇦**"
+    ],
+    "id": "q06"
+  },
+  {
+    "type": "direct",
+    "question": "For GitLab Korea Limited employees, how many days of short-term Family Care Leave can be taken per year, and is it paid?",
+    "expected_answer": "Employees at GitLab Korea Limited can take up to 10 days of short-term Family Care Leave per year, which is unpaid and can be split over multiple occasions.",
+    "evidence": [
+      "Up to 10 days per year (unpaid), can be split over multiple occasions"
+    ],
+    "expected_sources": [
+      "GitLab Korea Limited Benefits > Growing Family Leaves > Family Care Leave"
+    ],
+    "id": "q07"
+  },
+  {
+    "type": "direct",
+    "question": "For GitLab LTD (UK) employees, how do I re-join the workplace pension scheme after opting out, and how often can I do this?",
+    "expected_answer": "Submit a Compass ticket, along with a letter or email from your personal email address that includes the phrase 'I confirm I personally submitted this notice to join a workplace pension scheme'. You can only re-join once in any 12 month period.",
+    "evidence": [
+      "You can only re-join once in any 12 month period."
+    ],
+    "expected_sources": [
+      "GitLab LTD (UK) Benefits > Financial Security > Pension Scheme"
+    ],
+    "id": "q08"
+  },
+  {
+    "type": "direct",
+    "question": "Which insurance provider covers GitLab Singapore team members for medical insurance, and what types of coverage are included?",
+    "expected_answer": "GitLab Singapore team members are enrolled in medical insurance through HSBC Insurance, which covers hospital and surgical, major medical, maternity, outpatient general practitioner, outpatient specialist, and dental.",
+    "evidence": [
+      "comprehensive medical insurance benefits through HSBC Insurance"
+    ],
+    "expected_sources": [
+      "GitLab Singapore Pte Ltd > Health & Wellbeing > Medical Insurance"
+    ],
+    "id": "q09"
+  },
+  {
+    "type": "direct",
+    "question": "Under the California Family Rights Act (CFRA) policy, how much advance notice should a team member give when the need for leave is foreseeable, such as for the expected birth of a child?",
+    "expected_answer": "When the need for leave is foreseeable, such as the expected birth or placement of a child, team members must, if possible, provide at least 30 days' advance notice.",
+    "evidence": [
+      "must, if possible, provide at least 30 days' advance notice"
+    ],
+    "expected_sources": [
+      "United States Leave of Absence Policies > Which leave is right for me? > California Family Rights Act (CFRA)"
+    ],
+    "id": "q10"
+  },
+  {
+    "type": "direct",
+    "question": "Under the GitLab Ireland Ltd Right to Disconnect Policy, what should I include in my messages if I regularly work with team members in a different time zone or with different working hours?",
+    "expected_answer": "You should include a note that the recipient may respond during their regular working hours, for example stating that you are working flexibly and do not expect a response or action outside their own working hours.",
+    "evidence": [
+      "do your communications include a note that the recipient may respond during their regular working hours"
+    ],
+    "expected_sources": [
+      "GitLab Ireland Ltd Right to Disconnect Policy > 7. Expectations"
+    ],
+    "id": "q11"
+  },
+  {
+    "type": "direct",
+    "question": "Who should receive the Collaboration value award at GitLab?",
+    "expected_answer": "The Collaboration award should go to a team member who made helping others a priority and went above and beyond in ways that led to tangible results, such as giving feedback effectively, sharing, or reaching across company departments or short toes.",
+    "evidence": [
+      "made helping others a priority and went above and beyond"
+    ],
+    "expected_sources": [
+      "Incentives at GitLab > GitLab Awards Program > The Values Awards"
+    ],
+    "id": "q12"
+  },
+  {
+    "type": "direct",
+    "question": "For Dirigenti employed in Italy through Papaya Global, how many days of sick leave are covered with full salary and job preservation, and can this be extended?",
+    "expected_answer": "Dirigenti in Italy are entitled to job preservation and full salary for 240 days, extendable by a further 180 days in cases of particular pathologies. After that, there are an additional 6 months of unpaid leave during which the employee cannot be dismissed.",
+    "evidence": [
+      "full salary for 240 days, extendable by a further 180 days"
+    ],
+    "expected_sources": [
+      "Papaya Global Italy Dirigente > Italy - Dirigente 🇮🇹 > Statutory Leave Policies"
+    ],
+    "id": "q13"
+  },
+  {
+    "type": "direct",
+    "question": "How long do I need to have worked at GitLab before I may be eligible for the annual refresh grant cycle review?",
+    "expected_answer": "Team members may be eligible to participate in the annual refresh grant cycle review once they have completed six months of service with the company. Participation also depends on talent assessments and key talent criteria, so not everyone will receive a grant.",
+    "evidence": [
+      "completed six months of service with the company"
+    ],
+    "expected_sources": [
+      "Equity Compensation > Annual Refresh Grant Program Eligibility"
+    ],
+    "id": "q14"
+  },
+  {
+    "type": "exact_term",
+    "question": "According to GitLab's benefits philosophy, what types of minor adjustments might the Total Rewards team not create an issue for when changing benefits?",
+    "expected_answer": "The Total Rewards team may not create an issue for minor adjustments such as deductible amounts or contribution increases, or for legal/required changes for the business.",
+    "evidence": [
+      "minor adjustments (such as deductible amounts or contribution increases)"
+    ],
+    "expected_sources": [
+      "Benefits > We've Got You Covered: Our Benefits Philosophy > How We Continuously Improve Your Benefits"
+    ],
+    "id": "q15"
+  },
+  {
+    "type": "exact_term",
+    "question": "For GitLab's PTY LTD (Australia) team members, which option must be selected in Workday when taking time off for a public holiday so that statutory entitlements are properly tracked?",
+    "expected_answer": "Team members must select `Public Holiday` in Workday so that statutory entitlements are properly tracked.",
+    "evidence": [
+      "Team members must select `Public Holiday` in Workday"
+    ],
+    "expected_sources": [
+      "PTY LTD Benefits > **Time Away & Leave Policies** > **Other Leave Types**"
+    ],
+    "id": "q16"
+  },
+  {
+    "type": "exact_term",
+    "question": "Under the GitLab France S.A.S. Right to Disconnect Charter, which type of scheduled period is listed among the exceptions to the right to disconnect, alongside emergencies and system or emergency communication testing?",
+    "expected_answer": "Scheduled \"on-call\" periods are listed as an exception to the right to disconnect.",
+    "evidence": [
+      "Scheduled \"on-call\" periods; and"
+    ],
+    "expected_sources": [
+      "GitLab France S.A.S. Right to Disconnect Charter > English: GITLAB FRANCE S.A.S. RIGHT TO DISCONNECT CHARTER > 4. Exceptions and flexibility toward emergencies"
+    ],
+    "id": "q17"
+  },
+  {
+    "type": "exact_term",
+    "question": "According to the GitLab handbook, until when does the grace period run for December courses under the Growth and Development coverage period (January 1st - December 31st)?",
+    "expected_answer": "The grace period for December courses runs until the end of January.",
+    "evidence": [
+      "with grace period until end of January for December courses"
+    ],
+    "expected_sources": [
+      "General & Entity Specific Benefits & Information > Company Wide Benefits - Available to All Team Members > Financial Security & Professional Growth"
+    ],
+    "id": "q18"
+  },
+  {
+    "type": "paraphrased",
+    "question": "If a US-based GitLab team member is expecting a baby and needs workplace adjustments, which policy page should they consult for information on those adjustments?",
+    "expected_answer": "They should refer to GitLab's Individuals with Disabilities policy, which covers the Pregnancy Accommodation policy.",
+    "evidence": [
+      "refer to our Individuals with Disabilities policy"
+    ],
+    "expected_sources": [
+      "GitLab Inc (US) Benefits > Leave Policy & Accommodations"
+    ],
+    "id": "q19"
+  },
+  {
+    "type": "paraphrased",
+    "question": "Why does the company consider it a problem if details like its profit figures, staff records, and lists of who it buys from and sells to get out to outsiders?",
+    "expected_answer": "Such information, if disclosed, might be useful to competitors or harmful to GitLab's suppliers, customers, or other business partners. It is also property of GitLab or its partners and was often developed at great expense.",
+    "evidence": [
+      "might be of use to competitors, or harmful to GitLab's suppliers"
+    ],
+    "expected_sources": [
+      "People Policies > Workplace Conduct > Confidentiality"
+    ],
+    "id": "q20"
+  },
+  {
+    "type": "paraphrased",
+    "question": "I work for GitLab's Canadian entity and want to put some of my extra pay from sales incentives into my retirement account. How do I request that, and what deadline applies?",
+    "expected_answer": "Submit a request through Compass before the payroll cutoff to direct your bonus or commission payments to your RRSP.",
+    "evidence": [
+      "you can submit a request through Compass before payroll cutoff"
+    ],
+    "expected_sources": [
+      "GitLab Canada Corp > Financial Security & Retirement > Registered Retirement Savings Plan (RRSP)"
+    ],
+    "id": "q21"
+  },
+  {
+    "type": "paraphrased",
+    "question": "If someone's pay works out to less than 80% of the middle point of the pay band for their job, what might the company do for them during the annual review cycle?",
+    "expected_answer": "Team members below 0.80 compa-ratio may receive market adjustments during ACR to bring them up to the minimum of the range, if budget is available.",
+    "evidence": [
+      "may receive market adjustments during ACR to bring them to the minimum"
+    ],
+    "expected_sources": [
+      "Compensation at Gitlab > Job Architecture > Market-Aligned Compensation Ranges"
+    ],
+    "id": "q22"
+  },
+  {
+    "type": "paraphrased",
+    "question": "In GitLab's India entity, who has the authority to swap out or dismiss someone serving on the panel that handles workplace misconduct of a sexual nature?",
+    "expected_answer": "GitLab has the right and absolute discretion to remove or replace any member of the Internal Committee where necessary or appropriate.",
+    "evidence": [
+      "right and absolute discretion to remove or replace any member"
+    ],
+    "expected_sources": [
+      "GitLab India Private Limited Policy Against Sexual Harassment > POLICY AGAINST SEXUAL HARASSMENT > 1.4 Process of dealing with Sexual Harassment complaints"
+    ],
+    "id": "q23"
+  },
+  {
+    "type": "multi_hop",
+    "question": "How does the way to contact Modern Health differ between the Financial Wellness contact information and the Modern Health contact information pages, and which team is listed for general benefits questions in both?",
+    "expected_answer": "The Financial Wellness page says to reach Modern Health 'through platform', while the Modern Health page lists a support email, help@joinmodernhealth.com. Both pages direct general benefits questions to Compass.",
+    "evidence": [
+      "**Modern Health:** Through platform",
+      "Modern Health Support: help@joinmodernhealth.com"
+    ],
+    "expected_sources": [
+      "Financial Wellness > Additional Resources > Contact Information",
+      "Modern Health > Contact Information"
+    ],
+    "id": "q24"
+  },
+  {
+    "type": "multi_hop",
+    "question": "In GitLab India Private Limited, how does the scope section of the Equal Opportunity Policy differ from that of the Policy Against Sexual Harassment in terms of what GitLab prohibits and which laws or settings it references?",
+    "expected_answer": "The EOP scope says GitLab will not discharge or discriminate/retaliate against team members or applicants for inquiring about, discussing, or disclosing disabilities, medical information, or gender details, and it aligns with Indian disability, transgender, and HIV/AIDS laws. The sexual harassment policy scope says GitLab will not tolerate sexual harassment by team members, customers, suppliers or business associates, whether in person or remote, and applies to any work-related interaction (e.g., vehicles, third party premises, off-site meetings, public venues).",
+    "evidence": [
+      "will not discharge or in any other manner discriminate or retaliate against team members or applicants",
+      "will not tolerate any form of sexual harassment, if engaged in by its team members, customers or suppliers"
+    ],
+    "expected_sources": [
+      "GitLab India Private Limited EOP Policy > 1.2 Scope",
+      "GitLab India Private Limited Policy Against Sexual Harassment > POLICY AGAINST SEXUAL HARASSMENT > 1.2 Scope"
+    ],
+    "id": "q25"
+  },
+  {
+    "type": "ambiguous",
+    "question": "How much parental leave do I get?",
+    "expected_answer": "Should explain it depends on the country/entity, mention the company-wide 16 weeks of paid parental leave, and/or ask where the person is based.",
+    "evidence": [],
+    "expected_sources": [],
+    "id": "q26"
+  },
+  {
+    "type": "ambiguous",
+    "question": "How many sick days do I get?",
+    "expected_answer": "Should explain it depends on the country/entity and not give a single number without saying which entity it applies to.",
+    "evidence": [],
+    "expected_sources": [],
+    "id": "q27"
+  },
+  {
+    "type": "ambiguous",
+    "question": "Do I get a pension?",
+    "expected_answer": "Should explain pension benefits depend on the country/entity, and describe the options per entity or ask where the person is based.",
+    "evidence": [],
+    "expected_sources": [],
+    "id": "q28"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "What's the best pizza place in Lisbon?",
+    "expected_answer": "Should say the handbook doesn't cover this.",
+    "evidence": [],
+    "expected_sources": [],
+    "id": "q29"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "What will the weather be like in Seoul tomorrow?",
+    "expected_answer": "Should say the handbook doesn't cover this.",
+    "evidence": [],
+    "expected_sources": [],
+    "id": "q30"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "How do I reset my laptop password?",
+    "expected_answer": "Should say the handbook doesn't cover this.",
+    "evidence": [],
+    "expected_sources": [],
+    "id": "q31"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "How do I set up two-factor authentication on my GitLab account?",
+    "expected_answer": "Should say the handbook doesn't cover this.",
+    "evidence": [],
+    "expected_sources": [],
+    "id": "q32"
+  },
+  {
+    "type": "out_of_scope",
+    "question": "How do I get access to the company VPN?",
+    "expected_answer": "Should say the handbook doesn't cover this.",
+    "evidence": [],
+    "expected_sources": [],
+    "id": "q33"
+  }
+]
