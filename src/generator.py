@@ -1,6 +1,7 @@
 import sys
 
 import anthropic
+import time
 from dotenv import load_dotenv
 
 from src.retriever import search
@@ -57,20 +58,30 @@ def generate_answer(question: str, chunks: list[dict]) -> dict:
     }
 
 def answer_question(question: str) -> dict:
-    """The full pipeline: retrieve -> gate -> (augment + generate) -> verify -> confidence."""
-    chunks = search(question)                                  # RETRIEVAL
+    """Full pipeline: search → gate → answer → citation check → confidence (+ per-stage timings)."""
+    timings = {}
+
+    start = time.perf_counter()
+    chunks = search(question)
+    timings["search"] = round(time.perf_counter() - start, 2)
     best_score = chunks[0]["score"] if chunks else 0.0
 
-    if best_score < MIN_RELEVANCE:                             # GATE: skip Claude entirely
-        result = {"answer": NOT_COVERED, "gated": True, "best_score": best_score,
-                  "chunks": chunks, "input_tokens": 0, "output_tokens": 0,
-                  "truncated": False, "check": None}
+    if best_score < MIN_RELEVANCE:
+        result = {"answer": NOT_COVERED, "gated": True, "best_score": best_score, "chunks": chunks,
+                  "input_tokens": 0, "output_tokens": 0, "truncated": False, "check": None}
     else:
-        result = generate_answer(question, chunks)             # AUGMENTATION + GENERATION
-        check = check_citations(result["answer"], build_context(chunks), len(chunks))  # VERIFY
+        start = time.perf_counter()
+        result = generate_answer(question, chunks)
+        timings["answer"] = round(time.perf_counter() - start, 2)
+
+        start = time.perf_counter()
+        check = check_citations(result["answer"], build_context(chunks), len(chunks))
+        timings["check"] = round(time.perf_counter() - start, 2)
+
         result = {**result, "gated": False, "best_score": best_score, "chunks": chunks, "check": check}
 
-    result["confidence"] = compute_confidence(result)          # CONFIDENCE (no API call)
+    result["timings"] = timings
+    result["confidence"] = compute_confidence(result)
     return result
 
 

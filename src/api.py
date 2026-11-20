@@ -10,7 +10,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, ConfigDict, Field
 
-from src.generator import answer_question
+from src.generator import MIN_RELEVANCE, answer_question
 from src.retriever import load_bm25
 
 log = logging.getLogger("uvicorn.error")
@@ -55,6 +55,8 @@ class AskResponse(BaseModel):
     input_tokens: int
     output_tokens: int
     truncated: bool
+    timings: dict[str, float]   # seconds per stage: search / answer / check
+    gate_threshold: float
 
 
 # ---------- App ----------
@@ -112,4 +114,6 @@ def ask(req: AskRequest) -> AskResponse:
         input_tokens=result["input_tokens"],
         output_tokens=result["output_tokens"],
         truncated=result["truncated"],
+        timings=result.get("timings", {}),
+        gate_threshold=MIN_RELEVANCE,
     )
